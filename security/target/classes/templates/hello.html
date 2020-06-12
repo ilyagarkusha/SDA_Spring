@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th = "http://www.thymleaf.org"
+      xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation = "http://www.thymleaf.org ">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spring Security Example</title>
+</head>
+<body>
+    <h1>Welcome to Spring Security Introduction Lecture</h1>
+    <form th:action="@{/logout}" method="post">
+        <input type="submit" value="Sign out" />
+    </form>
+
+
+</body>
+</html>
